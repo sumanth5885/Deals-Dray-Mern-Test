@@ -1,0 +1,30 @@
+.employee-list h1 {
+    text-align: center;
+    margin: 20px;
+    color: rgba(0, 0, 0, 0.466);
+}
+.list-table-format {
+    width: 95%;
+    margin: 0 auto  ;
+    display: grid;
+    grid-template-columns: 2fr 3fr 4fr 2fr 2fr 1.2fr 2fr 2fr 2fr ;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid black;
+    font-size: 13px;
+}
+.list-table-format img {
+    width: 100px;
+}
+.empty-employee-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.action {
+    display: flex;
+    gap: 10px;
+}

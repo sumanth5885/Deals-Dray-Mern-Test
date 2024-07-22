@@ -1,0 +1,23 @@
+.single-employee-list {
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgba(26, 53, 53, 0.555);
+    padding: 30px;
+    width: 90%;
+}
+.single-employee-list img {
+    width: 300px;
+    border-radius: 6px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info p {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.438);
+}
